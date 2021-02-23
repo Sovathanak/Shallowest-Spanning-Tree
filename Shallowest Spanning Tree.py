@@ -1,3 +1,5 @@
+import heapq
+
 class Queue:
     """
     A class that is to represent a normal queue (push to back, pop from front, no sorting or taking smallest item)
@@ -127,6 +129,3 @@ class Graph:
                 root = i
                 self.short_depth = max_depth
         return root, self.short_depth
-
-
-
